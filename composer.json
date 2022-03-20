@@ -1,0 +1,20 @@
+{
+  "name": "evster/sitemap-generator",
+  "description": "Library for generating a sitemap into file",
+  "autoload": {
+    "psr-4": {
+      "Evster\\SitemapGenerator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Evster",
+      "email": "8961240@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-dom": "*",
+    "ext-json": "*"
+  }
+}
