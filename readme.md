@@ -7,7 +7,7 @@ Usage:
 <br>
 
 ```
-use Evster\SitemapGenerator\SitemapGenerator;
+use Evster\SitemapGenerator\SitemapRecorder;
 use Evster\SitemapGenerator\Constant\SitemapExtensionsConstants;
 
 $inputData = [
@@ -18,7 +18,7 @@ $inputData = [
         'changefreq' => 'hourly',  
     ],
 ];
-$sitemap = new SitemapGenerator(
+$sitemap = new SitemapRecorder(
     $inputData,
     SitemapExtensionsConstants::EXTENSION_XML,
     'generated/data.xml'
